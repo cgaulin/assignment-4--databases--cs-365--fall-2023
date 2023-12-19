@@ -95,10 +95,95 @@ INSERT INTO track VALUES (6, 1, 9, 'Heads Up', '4.57');
 INSERT INTO track VALUES (6, 1, 10, 'Above Control', '5.06');
 INSERT INTO track VALUES (6, 1, 11, 'Today Dear', '4.49');
 
-INSERT INTO played VALUES ("20060814102103");
-INSERT INTO played VALUES ("20060814102522");
-INSERT INTO played VALUES ("20060814103025");
-INSERT INTO played VALUES ("20060814103654");
-INSERT INTO played VALUES ("20060814104143");
-INSERT INTO played VALUES ("20060814104337");
-INSERT INTO played VALUES ("20060814104721");
+INSERT INTO played VALUES ("Dysnomia", "20060814102103");
+INSERT INTO played VALUES ("Turn on the Bright Lights", "20060814102522");
+INSERT INTO played VALUES ("Dead Cool", "20060814103025");
+INSERT INTO played VALUES ("Houdini", "20060814103654");
+INSERT INTO played VALUES ("Come on Die Young", "20060814104143");
+INSERT INTO played VALUES ("Every Country’s Sun", "20060814104337");
+INSERT INTO played VALUES ("Heads Up", "20060814104721");
+
+INSERT INTO compiles VALUES ("Dawn of Midi", "Dysnomia");
+INSERT INTO compiles VALUES ("Interpol", "Turn on the Bright Lights");
+INSERT INTO compiles VALUES ("The Chrome Cranks", "Dead Cool");
+INSERT INTO compiles VALUES ("Melvins", "Houdini");
+INSERT INTO compiles VALUES ("Mogwai", "Come on Die Young");
+INSERT INTO compiles VALUES ("Mogwai", "Every Country’s Sun");
+INSERT INTO compiles VALUES ("Warpaint", "Heads Up");
+
+INSERT INTO contains VALUES 
+("Dysnomia", 'Io'),
+("Dysnomia", 'Sinope'),
+("Dysnomia", 'Atlas'),
+("Dysnomia", 'Nix'),
+("Dysnomia", 'Moon'),
+("Dysnomia", 'Ymir'),
+("Dysnomia", 'Ijiraq'),
+("Dysnomia", 'Algol'),
+("Dysnomia", 'Dysnomia'),
+("Turn on the Bright Lights", 'Untitled'),
+("Turn on the Bright Lights", 'Obstacle 1'),
+("Turn on the Bright Lights", 'NYC'),
+("Turn on the Bright Lights", 'PDA'),
+("Turn on the Bright Lights", 'Say Hello to the Angels'),
+("Turn on the Bright Lights", 'Hands Away'),
+("Turn on the Bright Lights", 'Obstacle 2'),
+("Turn on the Bright Lights", 'Stella Was a Diver and She Was Always Down'),
+("Turn on the Bright Lights", 'Roland'),
+("Turn on the Bright Lights", 'The New'),
+("Turn on the Bright Lights", 'Leif Erikson'),
+("Dead Cool", 'Dead Cool'),
+("Dead Cool", 'Desperate Friend'),
+("Dead Cool", 'Way-Out Lover'),
+("Dead Cool", 'Down So Low'),
+("Dead Cool", 'Bloodshot Eye'),
+("Dead Cool", 'Nightmare in Pink'),
+("Dead Cool", 'Shine It On'),
+("Dead Cool", 'Burn Baby Burn'),
+("Houdini", 'Hooch'),
+("Houdini", 'Night Goat'),
+("Houdini", 'Lizzy'),
+("Houdini", 'Goin’ Blind'),
+("Houdini", 'Honey Bucket'),
+("Houdini", 'Hag Me'),
+("Houdini", 'Set Me Straight'),
+("Houdini", 'Sky Pup'),
+("Houdini", 'Joan of Arc'),
+("Houdini", 'Teet'),
+("Houdini", 'Copache'),
+("Houdini", 'Pearl Bomb'),
+("Houdini", 'Spread Eagle Beagle'),
+("Come on Die Young", 'Punk Rock:'),
+("Come on Die Young", 'Cody'),
+("Come on Die Young", 'Helps Both Ways'),
+("Come on Die Young", 'Year 2000 Non-Compliant Cardia'),
+("Come on Die Young", 'Kappa'),
+("Come on Die Young", 'Waltz of Aidan'),
+("Come on Die Young", 'May Nothing But Happiness Come Through Your Door'),
+("Come on Die Young", 'Oh! How the Dogs Stack Up'),
+("Come on Die Young", 'Ex-Cowboy'),
+("Come on Die Young", 'Chocky'),
+("Come on Die Young", 'Christmas Steps'),
+("Come on Die Young", 'Punk Rock/Puff Daddy/ Antichrist'),
+("Every Country’s Sun", 'Coolverine'),
+("Every Country’s Sun", 'Party in the Dark'),
+("Every Country’s Sun", 'Brain Sweeties'),
+("Every Country’s Sun", 'Crossing the Road Material'),
+("Every Country’s Sun", 'aka 47'),
+("Every Country’s Sun", '20 Size'),
+("Every Country’s Sun", '1000 Foot Face'),
+("Every Country’s Sun", 'Don’t Believe the Fife'),
+("Every Country’s Sun", 'Battered at a Scramble'),
+("Every Country’s Sun", 'Old Poisons'),
+("Every Country’s Sun", 'Every Country’s Sun'),
+("Heads Up", 'Whiteout'),
+("Heads Up", 'By Your Side'),
+("Heads Up", 'New Song'),
+("Heads Up", 'The Stall'),
+("Heads Up", 'So Good'),
+("Heads Up", 'Don’t Wanna'),
+("Heads Up", 'Don’t Let Go'),
+("Heads Up", 'Dre'),
+("Heads Up", 'Heads Up'),
+("Heads Up", 'Above Control'),
+("Heads Up", 'Today Dear');
